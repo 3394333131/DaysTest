@@ -6,6 +6,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 /**
+ * 给你链表的头节点,删除倒数第n个节点
  * 用栈 ,先把全部数据压入栈,再一次弹出n个
  *      然后再弹出一个prev,用prev把目标删掉,并返回实现定义好的dummy的next节点
  */

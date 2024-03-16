@@ -5,6 +5,7 @@ import com.org.Linked_.pojo.ListNode;
 import java.util.List;
 
 /**
+ * 给你链表的头节点,删除倒数第n个节点
  * 快慢指针
  */
 public class test_3_2 {
@@ -24,8 +25,5 @@ public class test_3_2 {
         return  ans;
     }
 
-    public ListNode removeNthFromEnd1(ListNode head, int n) {
-
-    }
 
 }
